@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GitHub Upload Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>GitHub Upload Test</h1>
+    <button id="themeToggle" class="btn">다크 모드</button>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>간단한 입력 테스트</h2>
+      <form id="echoForm">
+        <label for="textInput">메시지:</label>
+        <input id="textInput" type="text" placeholder="여기에 입력" required />
+        <button type="submit" class="btn">전송</button>
+      </form>
+      <div id="output" class="output">여기에 결과가 표시됩니다.</div>
+    </section>
+
+    <section class="card">
+      <h2>현재 시각</h2>
+      <div id="clock" class="clock">--:--:--</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>사용법: 파일을 GitHub에 업로드 후 index.html을 브라우저에서 열어 확인</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
